@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+section {
+    padding-top: 1px;
+}
+
+/*--------------------------- Navbar --------------------------- */
+.navbar {
+    width: 100%;
+    height: 58px;
+    background: transparent;
+    position: fixed;
+    z-index: 100;
+}
+
+#brand-logo {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    top: 12px;
+    left: 100px;
+}
+
+#brand-logo img {
+    width: 40px;
+    height: 23px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    top: 18px;
+    right: 100px;
+    font-weight: bold;
+}
+
+#projects-btn {
+    margin-left: 15px;
+}
+
+/*--------------------------- Landing Page --------------------------- */
+#landing-page {
+    height: 100vh;
+    background-color: #536684; /* #963d3d */
+}
+
+.info-wrapper {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 50px;
+}
+
+#name-title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.page-divider {
+    margin-top: -35px;
+    width: 400px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#job-title {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#issa-me {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+/*--------------------------- About Page --------------------------- */
+#about {
+    background-color: #fff;
+}
+
+.about-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#about-title {
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 0px 10px 5px 0px;
+    margin: -3px 0px -5px 0px;
+}
+
+#about-text {
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+/* Progress */
+.progress-container {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px #000;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#current-skills {
+    text-align: center;
+}
+
+.progress-label-left {
+    float: left;
+}
+  
+.progress-label-right {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.progress-bar {
+    background-color: #000;;
+    border-radius: 13px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#html-progress {
+    width: 80%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#css-progress {
+    width: 60%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#js-progress {
+    width: 30%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#java-progress {
+    width: 50%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#python-progress {
+    width: 60%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#bootstrap-progress {
+    width: 40%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#prototyping-progress {
+    width: 80%;
+    background-color: #536684;
+    height: 15px;
+    border-radius: 10px;
+}
+
+/*--------------------------- Projects Page --------------------------- */
+#projects {
+    background-color: #536684;
+    height: 100vh;
+}
+
+#projects-title {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.projects-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.project-img {
+    width: 310px;
+    height: auto;
+    padding: 5px 6px 5px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-grid;
+    margin-bottom: 10px;
+}
+
+.project-gap {
+    margin-right: 48px;
+}
+
+.project-img h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.project-img p {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.project-img img{
+    width: 310px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+/*--------------------------- Footer --------------------------- */
+#page-ends {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    padding-top: 1px;
+}
+
+#cp-hz {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #000;
+}
