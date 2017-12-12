@@ -162,49 +162,49 @@ section {
 
 #html-progress {
     width: 80%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #css-progress {
     width: 60%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #js-progress {
     width: 30%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #java-progress {
     width: 50%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #python-progress {
     width: 60%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #bootstrap-progress {
     width: 40%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
 
 #prototyping-progress {
     width: 80%;
-    background-color: #536684;
+    background: linear-gradient(to right, #fff, #536684);
     height: 15px;
     border-radius: 10px;
 }
