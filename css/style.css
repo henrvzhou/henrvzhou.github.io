@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin');
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -16,7 +16,7 @@ section {
 /*--------------------------- Navbar --------------------------- */
 .navbar {
     width: 100%;
-    height: 58px;
+    height: 80px; /* ?? */
     background: transparent;
     position: fixed;
     z-index: 100;
@@ -27,7 +27,7 @@ section {
     text-decoration: none;
     color: #fff;
     font-size: 30px;
-    top: 12px;
+    top: 25px; /* 12 */
     left: 100px;
 }
 
@@ -45,7 +45,7 @@ section {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
-    top: 18px;
+    top: 31px; /* 18 */
     right: 100px;
     font-weight: bold;
 }
@@ -57,7 +57,7 @@ section {
 /*--------------------------- Landing Page --------------------------- */
 #landing-page {
     height: 100vh;
-    background-color: #536684; /* #963d3d */
+    background-color: #632727; /* #536684 */
 }
 
 .info-wrapper {
@@ -102,6 +102,7 @@ section {
 /*--------------------------- About Page --------------------------- */
 #about {
     background-color: #fff;
+    height: 100vh;
 }
 
 .about-wrapper {
@@ -120,99 +121,14 @@ section {
 }
 
 #about-text {
-    font-family: 'Orbitron', sans-serif;
     text-align: left;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    word-spacing: 5px;
+    font-size: 25px;
 }
 
-/* Progress */
-.progress-container {
-    padding: 20px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    box-shadow: 2px 2px 40px #000;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-#current-skills {
-    text-align: center;
-}
-
-.progress-label-left {
-    float: left;
-}
-  
-.progress-label-right {
-    text-align: right;
-    margin-bottom: 0px;
-}
-
-.progress-bar {
-    background-color: #000;;
-    border-radius: 13px;
-    padding: 5px;
-    margin-top: 5px;
-}
-
-#html-progress {
-    width: 80%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#css-progress {
-    width: 60%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#js-progress {
-    width: 30%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#java-progress {
-    width: 50%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#python-progress {
-    width: 60%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#bootstrap-progress {
-    width: 40%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
-
-#prototyping-progress {
-    width: 80%;
-    background: linear-gradient(to right, #fff, #536684);
-    height: 15px;
-    border-radius: 10px;
-}
 
 /*--------------------------- Projects Page --------------------------- */
 #projects {
-    background-color: #536684;
-    height: 100vh;
+    background-color: #632727;
 }
 
 #projects-title {
@@ -222,59 +138,54 @@ section {
     margin-top: 60px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
 .projects-wrapper {
-    width: 1100px;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.project-img {
-    width: 310px;
-    height: auto;
-    padding: 5px 6px 5px 5px;
     background-color: #fff;
-    border-radius: 5px;
-    display: inline-grid;
-    margin-bottom: 10px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    width: 450px;
 }
 
-.project-gap {
-    margin-right: 48px;
-}
-
-.project-img h2 {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.project-img p {
-    padding-left: 5px;
-    padding-right: 5px;
+.projects-wrapper h3 {
     text-align: center;
 }
 
-.project-img img{
-    width: 310px;
-    height: 210px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-    border: 1px solid #000;
+.projects-wrapper p {
+    text-align: center;
 }
+
 
 /*--------------------------- Footer --------------------------- */
 #page-ends {
     width: 100%;
-    height: 70px;
-    background-color: #000;
-    padding-top: 1px;
+    background-color: #fff;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-media a {
+    color: #000;
+    font-size: 50px;
+    margin: 0px 10px;
+}
+
+.social-media a:hover {
+    color: #632727;
 }
 
 #cp-hz {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    color: #fff;
-    background-color: #000;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #000;
+    background-color: #fff;
 }
