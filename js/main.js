@@ -1,22 +1,14 @@
-$(document).ready(function() {
-    //Show navbar on scroll
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 50) {
-        $('.navbar').css({'background-color': '#000', 'border-bottom': '1px solid #cdd2d8', 'transition': '0.5s'});
-        } else {
-        $('.navbar').css({'background': 'transparent', 'border': 'none'});
-        }
-    });
+//javascript
 
-    //Smooth scrolling
-    var page = $('html, body');
-    
-    $('a[href^="#"]').click(function () {
-        page.animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 400);
-    
-        return false;
-    });
+const myNav = document.getElementById('myNavbar');
+let body = document.body;
+let html = document.documentElement;
 
-});
+window.onscroll = () => {
+  if (body.scrollTop >= 100 || html.scrollTop >= 100) {
+    myNav.classList.add('navScroll');
+  } else {
+    myNav.classList.remove('navScroll');
+  }
+}
+
